@@ -1,14 +1,22 @@
 ---
-title: "Paper Title Number 1"
+title: "Fault Detection in Wireless Sensor Networks Using Deep Learning"
 collection: publications
 category: manuscripts
-permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2009-10-01
-venue: 'Journal 1'
-slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
-paperurl: 'http://academicpages.github.io/files/paper1.pdf'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+permalink: /publication/fault-detection-wireless-sensor-networks
+excerpt: 'This project explores fault detection in wireless sensor networks using Deep Learning'
+date: 2025-01-15
+venue: 'In Review'
+slidesurl: ''
+paperurl: ''
+citation: ''
 ---
 
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+This project aims at detecting different types of faults that occur in a wireless sensor network using LSTM. It features a hardware setup comprising transmitters, receivers, sensors, and sensor nodes, with NodeMCU and Raspberry Pi as the central nodes. 
+
+The software architecture includes:
+- A central server with a MySQL database.
+- A Python client that communicates with the hardware to collect sensor data and stores it in the database.
+- An LSTM-based custom-built model that processes the data to detect faults.
+- A user interface built with Node.js and Grafana to display results.
+
+This solution is highly customizable and can be applied to a variety of use cases.
